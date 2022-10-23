@@ -22,6 +22,7 @@ jobs:
     defaults:
       run:
         shell: bash
+        working-directory: ${{ env.working_directory }}
 
     steps:
     # Checkout the repository to the GitHub Actions runner
