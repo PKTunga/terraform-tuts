@@ -15,9 +15,7 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
-    environment: production
-    with:
-      working-directory: ${{ env.working-directory }}
+    environment: dev
 
     defaults:
       run:
